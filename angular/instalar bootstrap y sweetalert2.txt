@@ -1,0 +1,22 @@
+sweetalert2
+------------
+
+npm install sweetalert2 --save
+
+
+bootstrap
+---------
+
+npm install bootstrap jquery popper.js --save
+
+Luego de eso nos dirigimos al archivo “angular.json” y colocamos las siguientes instrucciones en los objetos “styles” y “scripts” en donde llamaremos a las propiedades css del bootstrap y las dependencias scripts correspondientes a las interacciones de cada uno.
+"styles": [
+  "src/styles.scss",
+  "node_modules/bootstrap/dist/css/bootstrap.min.css"
+],
+"scripts": [
+  "node_modules/jquery/dist/jquery.slim.min.js",
+  "node_modules/popper.js/dist/umd/popper.min.js",
+  "node_modules/bootstrap/dist/js/bootstrap.min.js"
+]
+
